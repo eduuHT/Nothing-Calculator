@@ -13,6 +13,7 @@ namespace NothingCalculator
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+                    fonts.AddFont("Ndot-57-Aligned.tff", "Ndot57");
                 });
 
 #if DEBUG
