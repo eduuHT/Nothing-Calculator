@@ -4,12 +4,48 @@
              x:Class="NothingCalculator.MainPage">
 
     <ScrollView>
-        <VerticalStackLayout
-            Padding="30,0"
-            Spacing="25">
-            
-            
-        </VerticalStackLayout>
+        <Grid Padding="50" RowSpacing="10" ColumnSpacing="100" BackgroundColor="LightGray">
+
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Button Text="AC" FontSize="25" Grid.Row="0" Grid.Column="0" BackgroundColor="Black" TextColor="White" CornerRadius="100" HeightRequest="100" WidthRequest="100"/>
+            <Button Text="( )" FontSize="25" Grid.Row="0" Grid.Column="1" BackgroundColor="Black" TextColor="White" CornerRadius="100" HeightRequest="100" WidthRequest="100"/>
+            <Button Text="%" FontSize="25" Grid.Row="0" Grid.Column="2" BackgroundColor="Black" TextColor="White" CornerRadius="100" HeightRequest="100" WidthRequest="100"/>
+            <Button Text="/" FontSize="25" Grid.Row="0" Grid.Column="3" BackgroundColor="Black" TextColor="White" CornerRadius="100" HeightRequest="100" WidthRequest="100"/>
+
+            <Button Text="7" FontSize="25" Grid.Row="1" Grid.Column="0" BackgroundColor="White" TextColor="Black" CornerRadius="100" HeightRequest="100" WidthRequest="100"/>
+            <Button Text="8" FontSize="25" Grid.Row="1" Grid.Column="1" BackgroundColor="White" TextColor="Black" CornerRadius="100" HeightRequest="100" WidthRequest="100"/>
+            <Button Text="9" FontSize="25" Grid.Row="1" Grid.Column="2" BackgroundColor="White" TextColor="Black" CornerRadius="100" HeightRequest="100" WidthRequest="100"/>
+            <Button Text="*" FontSize="25" Grid.Row="1" Grid.Column="3" BackgroundColor="Black" TextColor="White" CornerRadius="100" HeightRequest="100" WidthRequest="100"/>
+
+            <Button Text="6" FontSize="25" Grid.Row="2" Grid.Column="0" BackgroundColor="White" TextColor="Black" CornerRadius="100" HeightRequest="100" WidthRequest="100"/>
+            <Button Text="5" FontSize="25" Grid.Row="2" Grid.Column="1" BackgroundColor="White" TextColor="Black" CornerRadius="100" HeightRequest="100" WidthRequest="100"/>
+            <Button Text="4" FontSize="25" Grid.Row="2" Grid.Column="2" BackgroundColor="White" TextColor="Black" CornerRadius="100" HeightRequest="100" WidthRequest="100"/>
+            <Button Text="-" FontSize="50" Grid.Row="2" Grid.Column="3" BackgroundColor="Black" TextColor="White" CornerRadius="100" HeightRequest="100" WidthRequest="100"/>
+
+            <Button Text="3" FontSize="25" Grid.Row="3" Grid.Column="0" BackgroundColor="White" TextColor="Black" CornerRadius="100" HeightRequest="100" WidthRequest="100"/>
+            <Button Text="2" FontSize="25" Grid.Row="3" Grid.Column="1" BackgroundColor="White" TextColor="Black" CornerRadius="100" HeightRequest="100" WidthRequest="100"/>
+            <Button Text="1" FontSize="25" Grid.Row="3" Grid.Column="2" BackgroundColor="White" TextColor="Black" CornerRadius="100" HeightRequest="100" WidthRequest="100"/>
+            <Button Text="+" FontSize="25" Grid.Row="3" Grid.Column="3" BackgroundColor="Black" TextColor="White" CornerRadius="100" HeightRequest="100" WidthRequest="100"/>
+
+            <Button Text="0" FontSize="25" Grid.Row="4" Grid.Column="0" BackgroundColor="White" TextColor="Black" CornerRadius="100" HeightRequest="100" WidthRequest="100"/>
+            <Button Text="." FontSize="25" Grid.Row="4" Grid.Column="1" BackgroundColor="White" TextColor="Black" CornerRadius="100" HeightRequest="100" WidthRequest="100"/>
+            <Button Text="DEL" FontSize="20" Grid.Row="4" Grid.Column="2" BackgroundColor="White" TextColor="Black" CornerRadius="100" HeightRequest="100" WidthRequest="100"/>
+            <Button Text="=" FontSize="25" Grid.Row="4" Grid.Column="3" BackgroundColor="DarkRed" TextColor="White" CornerRadius="100" HeightRequest="100" WidthRequest="100"/>
+        </Grid>
     </ScrollView>
 
 </ContentPage>
