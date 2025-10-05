@@ -43,7 +43,7 @@
                     HeightRequest="90"
                     WidthRequest="90"/>
             
-            <Button Text="( )"
+            <Button Text="DEL"
                     FontSize="25"
                     FontFamily="Ndot-57-Aligned"
                     Grid.Row="4"
@@ -226,7 +226,7 @@
                     CornerRadius="80"
                     HeightRequest="90"
                     WidthRequest="90"/>
-            
+
             <Button Text="."
                     FontSize="25"
                     FontFamily="Ndot-57-Aligned"
@@ -237,28 +237,18 @@
                     CornerRadius="80"
                     HeightRequest="90"
                     WidthRequest="90"/>
-            
-            <Button Text="DEL"
-                    FontSize="20"
-                    FontFamily="Ndot-57-Aligned"
-                    Grid.Row="8"
-                    Grid.Column="2"
-                    BackgroundColor="White"
-                    TextColor="Black"
-                    CornerRadius="80"
-                    HeightRequest="90"
-                    WidthRequest="90"/>
-            
+
             <Button Text="="
                     FontSize="25"
                     FontFamily="Ndot-57-Aligned"
                     Grid.Row="8"
-                    Grid.Column="3"
+                    Grid.Column="2"
+                    Grid.ColumnSpan="2"
                     BackgroundColor="DarkRed"
                     TextColor="White"
-                    CornerRadius="80"
+                    CornerRadius="50"
                     HeightRequest="90"
-                    WidthRequest="90"/>
+                    WidthRequest="190"/>
             <!-- #endregion -->
         </Grid>
     </ScrollView>
