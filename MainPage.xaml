@@ -7,11 +7,12 @@
         <Grid Padding="55"
               RowSpacing="8"
               ColumnSpacing="90"
-              BackgroundColor="LightGray">
-
+              BackgroundColor="#E6E6E6">
+            
+            <!-- #region Row/Columns Definitions -->
             <Grid.RowDefinitions>
                 <!-- Rows for the equations (0-3) -->
-                <RowDefinition/>
+                <RowDefinition Height="200"/>
                 <RowDefinition/>
                 <RowDefinition/>
                 <RowDefinition/>
@@ -30,6 +31,7 @@
                 <ColumnDefinition/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
+            <!-- #endregion -->
             
             <!-- #region Buttons Row 1 -->
             <Button Text="AC"
@@ -250,6 +252,8 @@
                     HeightRequest="90"
                     WidthRequest="190"/>
             <!-- #endregion -->
+            
+            
         </Grid>
     </ScrollView>
 
